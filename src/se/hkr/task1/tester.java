@@ -3,7 +3,7 @@ package se.hkr.task1;
 
 import java.lang.reflect.Array;
 
-public class tester extends employee{
+public class tester extends Employee{
     String[] tools;
     public tester(int id, String name, String dept, Double salary, String[] tools) {
         super(id, name, dept, salary);
@@ -17,9 +17,17 @@ public class tester extends employee{
 
     @Override
     void work(){
+        System.out.println("Common work for everyone!");
         System.out.println("Tester is testing: ");
-        System.out.println("1) Selenium");
-        System.out.println("2) Testingwhiz");
-        System.out.println("3) Ranorex");
+        int nr = 0;
+        for(String n: tools) {
+            nr++;
+            System.out.println(nr + ") " + n);
+        }
+    }
+    @Override
+    void name(){
+
+        System.out.println(super.getname() + " is Tester!");
     }
 }

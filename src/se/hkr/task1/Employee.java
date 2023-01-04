@@ -1,12 +1,12 @@
 package se.hkr.task1;
 
-public class employee {
+public abstract class Employee {
 
     private int id;
     private String name;
     private String dept;
     private Double salary;
-    public employee(int id, String name, String dept, Double salary){
+    public Employee(int id, String name, String dept, Double salary){
         this.id = id;
         this.name = name;
         this.dept = dept;
@@ -35,4 +35,8 @@ public class employee {
         return salary;
     }
     void setsalary(){}
+
+
+    abstract void name();
 }
+

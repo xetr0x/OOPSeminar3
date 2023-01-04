@@ -1,6 +1,6 @@
 package se.hkr.task1;
 
-public class developer extends employee {
+public class developer extends Employee {
     private String technology;
     public developer(int id, String name, String dept, Double salary,String technology ) {
         super(id, name, dept, salary);
@@ -13,6 +13,12 @@ public class developer extends employee {
 
     @Override
     void work(){
-        System.out.println(technology);
+        System.out.println("Common work for everyone!");
+        System.out.println("Developer is developing" + technology);
+    }
+    @Override
+    void name(){
+
+        System.out.println(super.getname() + " is Developer!");
     }
 }

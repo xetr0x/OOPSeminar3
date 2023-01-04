@@ -1,8 +1,6 @@
 package se.hkr.task1;
 
-import java.lang.reflect.Array;
-
-public class manager extends employee{
+public class manager extends Employee{
     String[] Projects;
     public manager(int id, String name, String dept, Double salary, String[] Projects) {
         super(id, name, dept, salary);
@@ -16,9 +14,18 @@ public class manager extends employee{
 
     @Override
     void work(){
+        System.out.println("Common work for everyone!");
         System.out.println("Manager is managing");
-        for(i : Projects)
-        System.out.println(") "+ Projects);
+        int nr = 0;
+        for(String n: Projects) {
+            nr++;
+            System.out.println(nr + ") " + n);
+        }
+    }
+    @Override
+    void name(){
+
+        System.out.println(super.getname() + " is Manager!");
     }
 
 }
