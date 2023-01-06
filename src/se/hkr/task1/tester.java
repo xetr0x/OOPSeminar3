@@ -4,7 +4,7 @@ package se.hkr.task1;
 import java.lang.reflect.Array;
 
 public class tester extends Employee{
-    String[] tools;
+    private String[] tools;
     public tester(int id, String name, String dept, Double salary, String[] tools) {
         super(id, name, dept, salary);
         this.tools = tools;
@@ -17,7 +17,7 @@ public class tester extends Employee{
 
     @Override
     void work(){
-        System.out.println("Common work for everyone!");
+        super.work();
         System.out.println("Tester is testing: ");
         int nr = 0;
         for(String n: tools) {
@@ -25,9 +25,5 @@ public class tester extends Employee{
             System.out.println(nr + ") " + n);
         }
     }
-    @Override
-    void name(){
 
-        System.out.println(super.getname() + " is Tester!");
-    }
 }

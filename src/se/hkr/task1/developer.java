@@ -13,12 +13,8 @@ public class developer extends Employee {
 
     @Override
     void work(){
-        System.out.println("Common work for everyone!");
+        super.work();
         System.out.println("Developer is developing" + technology);
     }
-    @Override
-    void name(){
 
-        System.out.println(super.getname() + " is Developer!");
-    }
 }

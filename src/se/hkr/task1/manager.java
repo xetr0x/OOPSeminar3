@@ -1,7 +1,7 @@
 package se.hkr.task1;
 
 public class manager extends Employee{
-    String[] Projects;
+    private String[] Projects;
     public manager(int id, String name, String dept, Double salary, String[] Projects) {
         super(id, name, dept, salary);
         this.Projects = Projects;
@@ -14,7 +14,7 @@ public class manager extends Employee{
 
     @Override
     void work(){
-        System.out.println("Common work for everyone!");
+        super.work();
         System.out.println("Manager is managing");
         int nr = 0;
         for(String n: Projects) {
@@ -22,10 +22,6 @@ public class manager extends Employee{
             System.out.println(nr + ") " + n);
         }
     }
-    @Override
-    void name(){
 
-        System.out.println(super.getname() + " is Manager!");
     }
 
-}

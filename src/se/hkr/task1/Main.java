@@ -18,9 +18,10 @@ public class Main {
     }
 
     void printEmployees(ArrayList<Employee> employee){
-        for (Employee n: employee){
-            n.name();
-            n.work();
+        for (Employee Employ: employee){
+            //if (Employ = manager)
+            //Employ.work();
+
         }
 
     }

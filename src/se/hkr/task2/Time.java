@@ -1,11 +1,13 @@
 package se.hkr.task2;
 
-public class Time {
+import java.io.Serializable;
+
+public class Time implements Serializable {
 
 
-    int hours;
-    int minutes;
-    int seconds;
+    private int hours;
+    private int minutes;
+    private int seconds;
     public Time(int hours, int minutes, int seconds){
         this.hours = hours;
         this.minutes = minutes;
@@ -16,13 +18,13 @@ public class Time {
     int gethours(){
         return hours;
     }
-    void setHours(){}
+    void setHours(int hours){this.hours = hours;}
     int getminutes(){
         return minutes;
     }
-    void setMinutes(){}
+    void setMinutes(int minutes){this.minutes = minutes;}
     int getseconds(){
         return seconds;
     }
-    void setSeconds(){}
+    void setSeconds(int seconds){this.seconds = seconds;}
 }

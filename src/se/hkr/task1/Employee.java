@@ -1,6 +1,6 @@
 package se.hkr.task1;
 
-public abstract class Employee {
+public class Employee {
 
     private int id;
     private String name;
@@ -37,6 +37,5 @@ public abstract class Employee {
     void setsalary(){}
 
 
-    abstract void name();
 }
 
