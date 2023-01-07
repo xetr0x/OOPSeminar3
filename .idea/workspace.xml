@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b19ce9-31ca-42bd-8a8e-eda9014d5095" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/se/hkr/task3/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/se/hkr/task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/se/hkr/task3/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminar3/se/hkr/task1/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminar3/se/hkr/task1/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminar3/se/hkr/task1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminar3/se/hkr/task1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminar3/se/hkr/task1/developer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminar3/se/hkr/task1/developer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminar3/se/hkr/task1/manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminar3/se/hkr/task1/manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminar3/se/hkr/task1/tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminar3/se/hkr/task1/tester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/hkr/task1/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/hkr/task1/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/hkr/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/hkr/task1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/hkr/task1/developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/hkr/task1/developer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/hkr/task1/manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/hkr/task1/manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/hkr/task1/tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/hkr/task1/tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/hkr/task2/Comptetitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/hkr/task2/Comptetitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/hkr/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/hkr/task2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/hkr/task2/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/hkr/task2/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/se/hkr/task2/participants.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/hkr/participants.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/hkr/task3/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/hkr/task3/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
