@@ -24,7 +24,12 @@ public class MyArrayList<T> {
         }
     }
 
-    public T get(){
-        return x;
-    }
+    public T get(int i){
+        if(MyArray.length < i){
+            System.out.println("its out of range");
+            return null;
+        }else {
+            return MyArray[i];
+        }
+        }
 }
